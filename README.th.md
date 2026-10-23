@@ -1,4 +1,4 @@
-# Test Computer System
+# Test Computer System 1.0 (TCS)
 
 [English](README.md) | **ภาษาไทย**
 
