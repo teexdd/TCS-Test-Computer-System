@@ -1,0 +1,53 @@
+TEST COMPUTER SYSTEM - TERMS OF USE AND PRIVACY NOTICE
+Version 1.0 - [Effective date: YYYY-MM-DD]
+
+[Developer name / company: YOUR NAME]   [Contact: your-email@example.com]
+(Replace the bracketed items before distributing.)
+
+PART A - TERMS OF USE
+
+1. Licence. You are granted a personal, non-exclusive, non-transferable licence to install and use Test Computer System ("the Software") on devices you own or are authorised to manage. You may not reverse engineer, resell or redistribute the Software except where the law allows it despite this restriction.
+
+2. What the Software does. It reads hardware and driver information, plays on-screen colour patterns and test tones, tests network connectivity, and writes a report on your device. It does not change drivers, system files or Windows security settings.
+
+3. Start-up behaviour. If enabled by you, the Software runs when you sign in, may display a full-screen window, and may open apps you have chosen. If you enable "Run checks at boot", it installs a Windows scheduled task (after one administrator approval) that runs the Software's own non-interactive hardware and driver checks as the system before sign-in, from a protected copy in Program Files. If you enable "Record which apps are opened and closed", a small background helper runs while you are signed in. You can press Esc or choose "Skip to desktop" at any time, disable any of these in Settings, or uninstall (which removes the tasks and the protected copy).
+
+4. Flashing images. The display test shows rapidly changing colours. If you are sensitive to flashing lights or have a history of photosensitive epilepsy, skip this test.
+
+5. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Test results are informational and may be incomplete or inaccurate; they are not a substitute for professional diagnosis.
+
+6. Limitation of liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER IS NOT LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, OR LOSS OF DATA OR PROFITS, ARISING FROM USE OF THE SOFTWARE. Nothing in these terms excludes liability that cannot be excluded by law (for example for death or personal injury caused by negligence, or fraud), and mandatory consumer rights in your country are not affected.
+
+7. Changes and termination. These terms may be updated for future versions. You may stop using the Software and uninstall it at any time.
+
+8. Governing law. Subject to mandatory consumer-protection law where you live, these terms are governed by the laws of [YOUR COUNTRY/STATE], and disputes are subject to the courts of [YOUR JURISDICTION].
+
+PART B - PRIVACY NOTICE
+
+1. Who we are. The developer named above is the contact point for this notice. Because the Software keeps all data on your own device and the developer does not receive it, the developer does not collect or process your personal data through the Software.
+
+2. Data the Software reads and stores on YOUR device:
+   - Device information: maker, model, CPU, memory, graphics card, disks, Windows version, BIOS version, computer name.
+   - Driver list and driver problems; test results and the checks you enabled.
+   - Power-on/off and shutdown events from the Windows System log (last 30 days).
+   - Network adapter names, local IP addresses, and ping/DNS/web/speed results.
+   - Optional, OFF unless you enable them: device serial number; Windows user name; list of recently launched apps (from the Windows UserAssist history of the current user); app activity history (only the program/product name of apps with a visible window, and the time each was opened or closed - never window titles or content).
+   - Your Software settings, language, and the date you accepted these terms.
+
+3. Where it is stored. Reports are saved in C:\TestComputerSystem\Logs (or a per-user folder if that is not writable). Settings and warnings are saved in your per-user application data folder. Nothing is uploaded to the developer.
+
+4. Network connections. Only when the network test runs, the Software connects to: www.msftconnecttest.com (Microsoft), 8.8.8.8 (Google Public DNS), 1.1.1.1 (Cloudflare) and, only if "Measure internet speed" is on, speed.cloudflare.com (Cloudflare). These services see your public IP address as in any internet connection and are governed by their own privacy policies. The Software contains no advertising, analytics or telemetry, and does not sell or share personal information (including for purposes defined in the California CCPA/CPRA).
+
+5. Legal bases and principles. Where laws such as the EU/UK GDPR, Thailand PDPA, Brazil LGPD, Canada PIPEDA or similar apply, processing on your device is based on your consent (given when you accept this notice and enable options) and is limited to what is necessary for the features you choose (data minimisation and purpose limitation). Optional items are off by default.
+
+6. Retention. Reports are kept until you delete them, or for the number of days you set in Settings (default 90). Uninstalling can remove all reports and settings.
+
+7. Your rights. Because the data is on your device, you can access, copy, correct or erase it yourself at any time: open the Logs page, open the folder, delete reports, or uninstall and choose to delete all data. You may withdraw consent at any time by turning options off or uninstalling. If you believe your rights are infringed you may also complain to your local data-protection authority.
+
+8. Children. The Software is not directed at children. Reports may contain the computer name and, if you enable it, the user name.
+
+9. Security. Data is stored in ordinary files protected by your Windows account permissions. Protect your device and account accordingly; reports can contain technical details about your computer.
+
+10. Changes. If this notice changes materially in a future version, the Software will ask for your acceptance again.
+
+By turning on "I agree" you confirm that you have read and accept the Terms of Use and this Privacy Notice.
