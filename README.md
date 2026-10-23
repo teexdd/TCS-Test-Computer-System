@@ -97,8 +97,6 @@ build.bat       build script
 2. Add one line for it to the `Langs` table in `src/I18n.cs` (code, native name, font names).
 3. Run `build.bat`.
 
-## Making Microsoft Defender / SmartScreen happy
-No guarantee is possible, but: sign the exe with a code-signing certificate, submit new builds to Microsoft for false-positive review (https://www.microsoft.com/wdsi/filesubmission), publish over HTTPS with a SHA-256 hash, and do not pack/obfuscate the binary. SmartScreen reputation builds up with downloads.
 
 ## Known limitations
 - Display test covers the primary monitor only.
@@ -106,5 +104,3 @@ No guarantee is possible, but: sign the exe with a code-signing certificate, sub
 - Windows keeps no full app-launch history by default; the activity monitor only sees apps that run while it is on.
 - The activity helper stays resident while enabled (small, but not zero).
 
-## License
-Add your own license file (e.g. MIT) before publishing.
