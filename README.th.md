@@ -98,13 +98,10 @@ build.bat       สคริปต์ build
 3. รัน `build.bat`
 
 ## ทำให้ Microsoft Defender / SmartScreen ผ่าน
-ไม่มีการรับประกัน แต่ควร: เซ็น exe ด้วย code-signing certificate, ส่งไฟล์ใหม่ให้ Microsoft ตรวจ false positive (https://www.microsoft.com/wdsi/filesubmission), แจกผ่าน HTTPS พร้อม SHA-256 และไม่ใช้ packer/obfuscator ชื่อเสียงของ SmartScreen จะสะสมจากจำนวนดาวน์โหลด
+ไม่มีการรับประกัน แต่ควร: เซ็น exe ด้วย code-signing certificate แจกผ่าน HTTPS พร้อม SHA-256 และไม่ใช้ packer/obfuscator ชื่อเสียงของ SmartScreen จะสะสมจากจำนวนดาวน์โหลด
 
 ## ข้อจำกัดที่ทราบ
 - ทดสอบจอเฉพาะจอหลัก
 - ผลจอและลำโพงยืนยันได้โดยผู้ใช้เท่านั้น โหมดอัตโนมัติจะระบุว่า "ไม่ได้ยืนยัน"
 - Windows ไม่เก็บประวัติเปิดแอปครบทุกตัว ตัวตรวจกิจกรรมเห็นเฉพาะแอปที่ทำงานตอนเปิดใช้
 - ตัวช่วยกิจกรรมทำงานค้างเบื้องหลังตอนเปิดใช้ (เล็ก แต่ไม่ใช่ศูนย์)
-
-## สัญญาอนุญาต
-เพิ่มไฟล์ license ของคุณเอง (เช่น MIT) ก่อนเผยแพร่
